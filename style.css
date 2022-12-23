@@ -76,6 +76,6 @@
     cursor: pointer;
 }
 
-.nav-item.active .nav-link {
+.nav-item.active .nav-link{
     color: #516FEB;
 }

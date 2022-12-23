@@ -37,8 +37,8 @@
           <li class="nav-item">
             <a href="admin.html" class="nav-link text-light text-center navigation-link">kelola</a>
           </li>
-          <li class="nav-item">
-            <a href="" class="nav-link text-light text-center navigation-link">pesanan customer</a>
+          <li class="nav-item active">
+            <a href="" class="nav-link text-center navigation-link">pesanan customer</a>
           </li>
         </ul>
       </div>
@@ -46,32 +46,35 @@
 
     <div class="content">
       <div class="container p-5">
-        <form>
-            <div class="mb-3">
-                <label for="namaTemplate" class="form-label">Nama Template</label>
-                <input type="text" class="form-control" id="namaTemplate">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Jenis Template</label>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                        Long
-                    </label>
-                    </div>
-                    <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                        Short
-                    </label>
-                </div>
-            </div>
-            <div class="mb-3">
-                <label for="formFile" class="form-label">Insert Template</label>
-                <input class="form-control" type="file" id="formFile">
-              </div>
-            <button type="submit" class="btn btn-primary">Simpan Template</button>
-          </form>
+        <table class="table shadow">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
 
