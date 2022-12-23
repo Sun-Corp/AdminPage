@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tambah Template</title>
+  <title>pesanan</title>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap" rel="stylesheet">
@@ -49,29 +49,49 @@
         <table class="table shadow">
           <thead>
             <tr>
-              <th scope="col">#</th>
-              <th scope="col">First</th>
-              <th scope="col">Last</th>
-              <th scope="col">Handle</th>
+              <th scope="col">Invoice ID</th>
+              <th scope="col">Acara ID</th>
+              <th scope="col">Nomor Rekening</th>
+              <th scope="col">Nomor Transaksi</th>
+              <th scope="col">Verification</th>
+              <th scope="col">Progress</th>
+              <th scope="col">URL</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
+              <th scope="row">1272311201</th>
+              <td>Acara ID</td>
+              <td>Nomor Rekening</td>
+              <td>Nomor Transaksi</td>
+              <td class="text-center">
+                <span class="badge bg-danger">Not Verified</span>
+              </td>
+              <td>
+                <div class="progress">
+                  <div class="progress-bar pgb" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                </div>
+              </td>
+              <td>
+                <a href="#">Contoh URL</a>
+              </td>
             </tr>
             <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td colspan="2">Larry the Bird</td>
-              <td>@twitter</td>
+              <th scope="row">1272311201</th>
+              <td>Acara ID</td>
+              <td>Nomor Rekening</td>
+              <td>Nomor Transaksi</td>
+              <td class="text-center">
+                <span class="badge bg-success">Verified</span>
+              </td>
+              <td>
+                <div class="progress">
+                  <div class="progress-bar pgb" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                </div>
+              </td>
+              <td>
+                <a href="#">Contoh URL</a>
+              </td>
             </tr>
           </tbody>
         </table>
